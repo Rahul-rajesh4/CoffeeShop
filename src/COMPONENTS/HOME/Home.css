@@ -1,0 +1,188 @@
+.homebackground{
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./img/becafeimg.jpg');
+    background-attachment: fixed !important;
+}
+.overlay{
+    height: 800px;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+.icons{
+    margin-top: 15%;
+
+}
+
+.overlay2{
+    height: 800px;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+.heddinggg{
+    font-family: "Roboto Condensed", sans-serif;
+    padding-top: 20%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 150px;
+}
+@media only screen and (max-width: 1160px) {
+    .homebackground{
+        height: 500px;
+    }
+    .overlay{
+        height: 500px;
+    }
+    .overlay2{
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .homebackground{
+        height: 500px;
+    }
+    .overlay{
+        height: 500px;
+    }
+    .overlay2{
+        height: 500px;
+    }
+
+}
+@media only screen and (max-width: 650px) {
+    .heddinggg{
+        padding-top: 20%;
+    }
+    .icons{
+        display: none;  
+    }    
+}
+@media only screen and (max-width: 560px) {
+    .heddinggg{
+        padding-top: 40%;
+        font-size: 60px;
+    }
+}
+.downarrow{
+    margin-top: 10%;
+    margin-left: 47%;
+    width: 50px;
+}
+
+.productt{
+    margin-top: 5%;
+}
+
+.product{
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 5%;
+}
+
+
+.iconsize{
+    margin-left: 2%;
+    width: 55px;
+    margin-bottom: 5%;
+}
+
+
+
+
+.message{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./img//img22.jpg');
+    background-attachment: fixed;
+}
+
+.hedding11{
+    font-family: "Roboto Condensed", sans-serif;
+    padding-top: 15%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.pera2{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+     
+}
+@media only screen and (max-width: 560px) {
+    .message{
+        height: 580px;
+    }
+}
+
+/* styles.css (or your preferred CSS file) */
+.coffee-shop-footer {
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo img {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-info {
+    margin-left: 5%;
+  flex: 1;
+  text-align: left;
+}
+
+.footer-info p {
+  margin: 10px 0;
+}
+
+.footer-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media a {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #ffcc33;
+}
+
+

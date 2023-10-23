@@ -1,0 +1,140 @@
+.button {
+    margin-top: 5% !important;
+    display: block;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    margin: 0;
+    right: 0;
+    margin-right: 5% !important;
+    margin-right: 0%;
+    overflow: hidden;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .button:before,
+  .button:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 7px;
+  }
+  
+  .button:before {
+    border: 4px solid #F0EEEF;
+    transition: opacity .4s cubic-bezier(.77, 0, .175, 1) 80ms, transform .5s cubic-bezier(.455, .03, .515, .955) 80ms;
+  }
+  
+  .button:after {
+    border: 4px solid #96daf0;
+    transform: scale(1.3);
+    transition: opacity .4s cubic-bezier(.165, .84, .44, 1), transform .5s cubic-bezier(.25, .46, .45, .94);
+    opacity: 0;
+  }
+  
+  .button:hover:before,
+  .button:focus:before {
+    opacity: 0;
+    transform: scale(0.7);
+    transition: opacity .4s cubic-bezier(.165, .84, .44, 1), transform .5s cubic-bezier(.25, .46, .45, .94);
+  }
+  
+  .button:hover:after,
+  .button:focus:after {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity .4s cubic-bezier(.77, 0, .175, 1) 80ms, transform .5s cubic-bezier(.455, .03, .515, .955) 80ms;
+  }
+  
+  .button-box {
+    display: flex;
+    position: absolute;
+    top: 4px;
+    left: 0;
+  }
+  
+  .button-elem {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 17px 18px 0 18px;
+    transform: rotate(180deg);
+    fill: #F0EEEF;
+  }
+  
+  .button:hover .button-box,
+  .button:focus .button-box {
+    transition: .4s;
+    transform: translateX(-56px);
+  }
+  
+  
+
+
+
+
+  .yes {
+    transform: translateX(0);
+    width: 100%;
+    height: 800px;
+    display: block !important;
+    position: fixed;
+    transition: .5s;
+    overflow-y: auto;
+    top: 0;
+    right: -400px;
+    background-color: rgb(123, 68, 6);
+    z-index: 9999;
+    padding: 50px 40px 0px 40px;
+    animation-name: cssAnimation;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes cssAnimation {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(-400px);
+        transform: translateX(-400px);
+    }
+
+    
+}
+
+
+
+.modal-title{
+    margin-bottom: 40px;
+}
+
+
+.modal-content {
+    background-color: rgb(123, 68, 6) !important;
+}
+
+
+
+  .form-control{
+    margin: 10px 0 10px 0;
+    background: transparent;
+    border: white 2px solid;
+    padding: 10px;
+    color: white;
+  }
+
+
+.navlinkss{
+    font-family: "Roboto Condensed", sans-serif;
+    /* padding-top: 50%; */
+    color: white;
+    font-size: 50px;
+}
