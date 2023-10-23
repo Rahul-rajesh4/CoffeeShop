@@ -20,7 +20,7 @@ export default function Event() {
                         <p className='eventparagraph' data-aos="fade-right" data-aos-delay=".1s">
                             DATE:&nbsp;2023-10-30<br></br>
                             Location:&nbsp;123 main st<br></br>
-                            <h2>JOIN US FOR A COFFEE TASTING EVENT</h2>
+                            <h3 className='perah2'>JOIN US FOR A COFFEE TASTING EVENT</h3>
                         </p>
                     </div>
                     <div className='col-md-6 eventright right'>
