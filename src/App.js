@@ -11,6 +11,7 @@ import Visiting from './COMPONENTS/visiting/Visiting';
 import Event from './COMPONENTS/EVENT/Event';
 import Menu from './COMPONENTS/MENU/Menu';
 import Items from './COMPONENTS/MENU/Items';
+import Button3 from './COMPONENTS/Menubutton/Button3';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <BrowserRouter>
         <Routes>
         <Route path='/' element={<Home />}/>
+        <Route path='/burron3' element={<Button3 />}/>
         <Route path='/button' element={<Button />}/>
         <Route path='/closebutton' element={<Close />}/>
         <Route path='/card' element={<Card />}/>

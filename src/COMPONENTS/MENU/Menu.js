@@ -2,9 +2,8 @@ import React from 'react'
 import './menumenu.css'
 import cup from './imges/cup4.jpg'
 import videobg from './imges/bgvideo.mp4'
-
-import Button from '../button/Button'
 import Items from './Items'
+import Button3 from '../Menubutton/Button3'
 export default function Menu() {
   return (
     <>
@@ -13,7 +12,7 @@ export default function Menu() {
           <div className='container '>
             <div className='header-content'>
               <div className='mnuuh1'>
-                <Button/>
+                <Button3 />
                 <h1>Menu</h1>
               </div>
 
